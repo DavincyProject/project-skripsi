@@ -1,37 +1,19 @@
 import Navbar from "@/components/Navbar";
+import PdfTable from "@/components/homepages/PdfTable";
+import ProfileCard from "@/components/homepages/ProfileCard";
 import Image from "next/image";
 
 export default function Home() {
   return (
-    <div className="min-h-[100dvh]">
-      <main className="flex min-h-screen flex-col items-center justify-between">
-        <div className="diff aspect-[16/9]">
-          <div className="diff-item-1">
-            <div className="bg-blue-300 text-primary-content text-9xl font-black grid place-content-center">
-              Testing
-            </div>
-          </div>
-          <div className="diff-item-2">
-            <div className="bg-base-200 text-9xl font-black grid place-content-center">
-              Testing
-            </div>
-          </div>
-          <div className="diff-resizer"></div>
+    <div className="min-h-[100dvh] p-5">
+      {/* table and profile card will show from here */}
+      <section className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+        <div className="col-span-1">
+          <ProfileCard />
         </div>
-      </main>
-
-      <section>
-        <h1>testing layout</h1>
-        <h1>testing layout</h1>
-        <h1>testing layout</h1>
-        <h1>testing layout</h1>
-        <h1>testing layout</h1>
-        <h1>testing layout</h1>
-        <h1>testing layout</h1>
-        <h1>testing layout</h1>
-        <h1>testing layout</h1>
-        <h1>testing layout</h1>
-        <h1>testing layout</h1>
+        <div className="col-span-1 md:col-span-2">
+          <PdfTable />
+        </div>
       </section>
     </div>
   );

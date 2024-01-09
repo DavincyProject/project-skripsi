@@ -1,0 +1,39 @@
+[
+  {
+    "id": 1,
+    "title": "Status Mahasiswa",
+    "description": "Active",
+    "icon": "/profile/info.svg",
+    "status": "Active"
+  },
+  {
+    "id": 2,
+    "title": "NIM",
+    "description": "17*****5",
+    "icon": "/profile/nim.svg"
+  },
+  {
+    "id": 3,
+    "title": "Tanggal Lahir",
+    "description": "DD/MM/YYYY",
+    "icon": "/profile/tanggal_lahir.svg"
+  },
+  {
+    "id": 4,
+    "title": "Jenis Kelamin",
+    "description": "Perempuan",
+    "icon": "/profile/jenis_kelamin.svg"
+  },
+  {
+    "id": 5,
+    "title": "Agama",
+    "description": "Religion",
+    "icon": "/profile/agama.svg"
+  },
+  {
+    "id": 6,
+    "title": "Program Studi",
+    "description": "Teknologi Informasi",
+    "icon": "/profile/prodi.svg"
+  }
+]

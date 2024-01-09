@@ -1,0 +1,77 @@
+[
+  {
+    "id": "1",
+    "name": "Panduan Pendaftaran Mahasiswa Baru Tahun 2020-2021",
+    "date": "01-07-2020"
+  },
+  {
+    "id": "2",
+    "name": "Pedoman Penulisan Skripsi Fakultas Teknik",
+    "date": "15-02-2019"
+  },
+  {
+    "id": "3",
+    "name": "Buku Panduan Peraturan Akademik Universitas",
+    "date": "20-09-2018"
+  },
+  {
+    "id": "4",
+    "name": "Panduan Penggunaan Laboratorium Komputer",
+    "date": "10-03-2020"
+  },
+  {
+    "id": "5",
+    "name": "Pedoman Penulisan Karya Ilmiah Fakultas Ekonomi",
+    "date": "05-11-2019"
+  },
+  {
+    "id": "6",
+    "name": "Buku Panduan Peraturan Organisasi Mahasiswa",
+    "date": "30-06-2018"
+  },
+  {
+    "id": "7",
+    "name": "Panduan Penggunaan Perpustakaan Universitas",
+    "date": "12-09-2020"
+  },
+  {
+    "id": "8",
+    "name": "Pedoman Penulisan Tugas Akhir Fakultas Kedokteran",
+    "date": "25-04-2019"
+  },
+  {
+    "id": "9",
+    "name": "Buku Panduan Peraturan Akademik Fakultas Hukum",
+    "date": "08-12-2017"
+  },
+  {
+    "id": "10",
+    "name": "Panduan Penggunaan Laboratorium Kimia",
+    "date": "17-08-2020"
+  },
+  {
+    "id": "11",
+    "name": "Pedoman Penulisan Skripsi Fakultas Ilmu Komunikasi",
+    "date": "03-03-2019"
+  },
+  {
+    "id": "12",
+    "name": "Buku Panduan Peraturan Organisasi Mahasiswa Baru",
+    "date": "28-10-2018"
+  },
+  {
+    "id": "13",
+    "name": "Panduan Penggunaan Perpustakaan Fakultas Teknik",
+    "date": "19-05-2020"
+  },
+  {
+    "id": "14",
+    "name": "Pedoman Penulisan Karya Ilmiah Fakultas Ekonomi Bisnis",
+    "date": "14-01-2019"
+  },
+  {
+    "id": "15",
+    "name": "Buku Panduan Peraturan Akademik Universitas Negeri",
+    "date": "27-07-2018"
+  }
+]

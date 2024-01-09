@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import Link from "next/link";
 import { useState, useEffect } from "react";
 import { RiLogoutBoxLine } from "react-icons/ri";
@@ -17,12 +18,28 @@ const Navbar = () => {
   return (
     <>
       <div
-        className={`navbar sticky z-10 top-0 bg-base-100 transition-all ease-in-out shadow-md ${
+        className={`navbar overflow-x-none sticky z-10 top-0 bg-base-100 transition-all ease-in-out shadow-md ${
           isScrolled && "bg-opacity-30 backdrop-blur-sm bg-white"
         }`}
       >
         <div className="navbar-start">
-          <div className="dropdown">
+          <Link href="/" className="flex items-center gap-2">
+            <div>
+              <Image alt="logo bsi" src="logo_bsi.svg" width={50} height={50} />
+            </div>
+            <div className="w-96 text-xs sm:text-sm md:text-md lg:text-base">
+              <h1 className="m-0 font-bold ">
+                SIAKAD STUDENT
+                <br />
+                <span className="font-normal ">
+                  Universitas Bina Sarana Informatika
+                </span>
+              </h1>
+            </div>
+          </Link>
+        </div>
+        <div className="navbar-end">
+          <div className="dropdown dropdown-end">
             <div
               tabIndex={0}
               role="button"
@@ -45,7 +62,7 @@ const Navbar = () => {
             </div>
             <ul
               tabIndex={0}
-              className="menu menu-md dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52"
+              className="mt-3 z-[1] p-2 shadow menu menu-sm dropdown-content bg-base-100 rounded-box w-52"
             >
               <li>
                 <Link href="/dashboard">Dashboard</Link>
@@ -56,21 +73,14 @@ const Navbar = () => {
               <li>
                 <a>About</a>
               </li>
+              <li>
+                <div className="flex gap-1 text-white bg-red-500 justify-center">
+                  <RiLogoutBoxLine />
+                  <span>Logout</span>
+                </div>
+              </li>
             </ul>
           </div>
-        </div>
-        <div className="navbar-center">
-          <Link href="/" className="text-xl font-bold">
-            Testing Navbar
-          </Link>
-        </div>
-        <div className="navbar-end">
-          <button className="btn btn-sm md:btn-md bg-red-600 hover:bg-red-500">
-            <div className="flex gap-1 text-white">
-              <RiLogoutBoxLine />
-              <span>Logout</span>
-            </div>
-          </button>
         </div>
       </div>
     </>

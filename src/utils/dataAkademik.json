@@ -1,0 +1,39 @@
+[
+  {
+    "id": 1,
+    "title": "Tahun Masuk",
+    "description": "2020",
+    "icon": "/profile/tanggal_lahir.svg"
+  },
+  {
+    "id": 2,
+    "title": "Waktu",
+    "description": "Pagi / Siang",
+    "icon": "/profile/waktu.svg"
+  },
+  {
+    "id": 3,
+    "title": "Lokasi Cabang",
+    "description": "26",
+    "icon": "/profile/lokasi_cabang.svg"
+  },
+  {
+    "id": 4,
+    "title": "Kelas",
+    "description": "8A",
+    "icon": "/profile/kelas.svg"
+  },
+  {
+    "id": 5,
+    "title": "Semester Aktif",
+    "description": "8",
+    "icon": "/profile/semester_aktif.svg"
+  },
+  {
+    "id": 6,
+    "title": "Pembayaran Kuliah",
+    "description": "Lunas",
+    "icon": "/profile/status_pembayaran.svg",
+    "status": "Lunas"
+  }
+]

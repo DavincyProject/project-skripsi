@@ -7,7 +7,7 @@ import Footer from "@/components/Footer";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "SUBSI | SISFO AKADEMIK MAHASISWA",
+  title: "UBSI | SISFO AKADEMIK MAHASISWA",
   description:
     "Situs ini dikhususkan bagi mahasiswa/mahasiswi Akademi-akademi Bina Sarana Informatika dalam memperoleh informasi akademik (nilai), pembayaran biaya kuliah, pendaftaran ujian Her, TA, dll.",
 };
