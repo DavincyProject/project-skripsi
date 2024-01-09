@@ -22,7 +22,12 @@ const ProfileCard = () => {
 
             <div>
               <h1 className="font-bold">Username</h1>
-              <p>17*****5@bsi.ac.id</p>
+              <div
+                className="tooltip"
+                data-tip="Password Default adalah tanggal lahir anda yyyy/mm/dd"
+              >
+                <p>17*****5@bsi.ac.id</p>
+              </div>
             </div>
           </div>
           <div className="card shadow-md p-2">
