@@ -169,7 +169,7 @@ const Footer = () => {
           </nav>
         </div>
       </footer>
-      <div>
+      <div className="px-3">
         <h1 className="text-xs text-white text-center">
           © 2012 - 2024 Sisfo Akademik Mahasiswa Universitas Bina Sarana
           Informatika | Design by Billy
