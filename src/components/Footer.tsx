@@ -31,31 +31,37 @@ const Footer = () => {
       id: 1,
       name: "www.bsi.ac.id",
       link: "http://www.bsi.ac.id",
+      logo: "/footer/web.png",
     },
     {
       id: 2,
       name: "News BSI",
       link: "http://news.bsi.ac.id",
+      logo: "/footer/web.png",
     },
     {
       id: 3,
       name: "PKL",
       link: "http://pkl.bsi.ac.id",
+      logo: "/footer/web.png",
     },
     {
       id: 4,
       name: "MBKM",
       link: "http://mbkm.bsi.ac.id",
+      logo: "/footer/web.png",
     },
     {
       id: 5,
       name: "Lykan",
       link: "http://lykan.bsi.ac.id",
+      logo: "/footer/web.png",
     },
     {
       id: 6,
       name: "E-learning UBSI",
       link: "http://elearning.bsi.ac.id/login",
+      logo: "/footer/web.png",
     },
   ];
 
@@ -137,6 +143,12 @@ const Footer = () => {
                 target="_blank"
                 className="flex items-center gap-2 my-2 hover:text-blue-300"
               >
+                <Image
+                  src={site.logo}
+                  alt={site.name}
+                  width={20}
+                  height={20}
+                ></Image>
                 <span>{site.name}</span>
               </Link>
             ))}
@@ -171,8 +183,9 @@ const Footer = () => {
       </footer>
       <div className="px-3">
         <h1 className="text-xs text-white text-center">
-          © 2012 - 2024 Sisfo Akademik Mahasiswa Universitas Bina Sarana
-          Informatika | Design by Billy
+          © 2012 - 2024 SISFO Akademik Mahasiswa Universitas Bina Sarana
+          Informatika, All Rights reserved. | Design by Billy <br />
+          All icons and logos are the property of their respective owners.
         </h1>
       </div>
     </section>

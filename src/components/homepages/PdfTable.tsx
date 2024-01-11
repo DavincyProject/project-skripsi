@@ -12,10 +12,10 @@ const PdfTable = () => {
         aktif dapat memperoleh informasi dengan mudah melalui website ini.
       </h1>
       <section>
-        <div className="overflow-x-auto text-center">
+        <div className="overflow-y-scroll max-h-[80dvh] custom-scrollbar">
           <table className="table border shadow-md rounded-md">
             {/* head */}
-            <thead>
+            <thead className="sticky top-0 bg-white border-t-black">
               <tr>
                 <th className="text-center">No</th>
                 <th>File Name</th>
@@ -42,7 +42,9 @@ const PdfTable = () => {
               ))}
             </tbody>
           </table>
-          <div className="join my-5 ">
+        </div>
+        <div className="flex items-center justify-end">
+          <div className="join my-5">
             <button className="join-item btn bg-[#86B6F6] hover:bg-[#B6BBC4]">
               «
             </button>

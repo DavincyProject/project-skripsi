@@ -15,14 +15,57 @@ const Navbar = () => {
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
+  const nilai = [
+    {
+      id: 1,
+      name: "Nilai Murni UTS",
+      route: "/",
+    },
+    {
+      id: 2,
+      name: "Nilai Murni UAS",
+      route: "/",
+    },
+    {
+      id: 3,
+      name: "Nilai Ujian Murni",
+      route: "/",
+    },
+    {
+      id: 4,
+      name: "Nilai Murni HER",
+      route: "/",
+    },
+    {
+      id: 5,
+      name: "Kartu Hasil Studi",
+      route: "/",
+    },
+    {
+      id: 6,
+      name: "KHS Semester",
+      route: "/",
+    },
+    {
+      id: 7,
+      name: "Nilai HER Non OCR Dan Total",
+      route: "/",
+    },
+    {
+      id: 8,
+      name: "Nilai UAS Non OCR Dan Total",
+      route: "/",
+    },
+  ];
+
   return (
     <>
       <div
-        className={`navbar overflow-x-none sticky z-10 top-0 bg-base-100 transition-all ease-in-out shadow-md ${
+        className={`navbar justify-between overflow-x-none sticky z-10 top-0 bg-base-100 transition-all ease-in-out shadow-md ${
           isScrolled && "bg-opacity-30 backdrop-blur-sm bg-white"
         }`}
       >
-        <div className="navbar-start">
+        <div>
           <Link href="/" className="flex items-center gap-2">
             <div>
               <Image alt="logo bsi" src="logo_bsi.svg" width={50} height={50} />
@@ -38,6 +81,7 @@ const Navbar = () => {
             </div>
           </Link>
         </div>
+
         <div className="navbar-end">
           <div className="dropdown dropdown-end">
             <div
@@ -62,16 +106,54 @@ const Navbar = () => {
             </div>
             <ul
               tabIndex={0}
-              className="mt-3 z-[1] p-2 shadow menu menu-sm dropdown-content bg-base-100 rounded-box w-52"
+              className="mt-3 z-[1] p-2 shadow menu menu-sm gap-2 dropdown-content bg-base-100 rounded-box w-52"
             >
               <li>
-                <Link href="/dashboard">Dashboard</Link>
+                <Link href={"/dashboard"}>Pengajuan Surat</Link>
               </li>
               <li>
-                <a>Portfolio</a>
+                <details>
+                  <summary>Nilai Mahasiswa</summary>
+                  <ul>
+                    {nilai.map((n) => (
+                      <li key={n.id} className="my-1">
+                        <Link href={n.route}>{n.name}</Link>
+                      </li>
+                    ))}
+                  </ul>
+                </details>
               </li>
               <li>
-                <a>About</a>
+                <details>
+                  <summary>Data Mahasiswa</summary>
+                  <ul>
+                    <li className="my-1">
+                      <Link href="/">Data Pribadi Mahasiswa</Link>
+                    </li>
+                    <li className="my-1">
+                      <Link href="/">Kartu Rencana Studi</Link>
+                    </li>
+                  </ul>
+                </details>
+              </li>
+              <li>
+                <details>
+                  <summary>Info Akademik</summary>
+                  <ul>
+                    <li className="my-1">
+                      <Link href="/">Kalender Akademik</Link>
+                    </li>
+                    <li className="my-1">
+                      <Link href="/">Jadwal Kuliah</Link>
+                    </li>
+                    <li className="my-1">
+                      <Link href="/">Jadwal Mengajar Dosen</Link>
+                    </li>
+                    <li className="my-1">
+                      <Link href="/">Email Program Studi</Link>
+                    </li>
+                  </ul>
+                </details>
               </li>
               <li>
                 <div className="flex gap-1 text-white bg-red-500 justify-center">
