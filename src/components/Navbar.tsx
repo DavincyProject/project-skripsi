@@ -65,7 +65,7 @@ const Navbar = () => {
           isScrolled && "bg-opacity-30 backdrop-blur-sm bg-white"
         }`}
       >
-        <div>
+        <div className="navbar-start">
           <Link href="/" className="flex items-center gap-2">
             <div>
               <Image alt="logo bsi" src="logo_bsi.svg" width={50} height={50} />
@@ -156,7 +156,7 @@ const Navbar = () => {
                 </details>
               </li>
               <li>
-                <div className="flex gap-1 text-white bg-red-500 justify-center">
+                <div className="flex gap-1 text-white bg-red-600 hover:bg-red-500 justify-center">
                   <RiLogoutBoxLine />
                   <span>Logout</span>
                 </div>

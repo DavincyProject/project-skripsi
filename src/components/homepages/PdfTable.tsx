@@ -1,6 +1,7 @@
 import Image from "next/image";
 import pdfname from "../../utils/pdfname.json";
 
+// akan menggantikan arsip berita mahasiswa di halaman beranda students
 const PdfTable = () => {
   return (
     <>

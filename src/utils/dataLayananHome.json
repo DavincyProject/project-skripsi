@@ -1,0 +1,419 @@
+[
+  {
+    "id": 1,
+    "title": "Layanan Akademik Kemahasiswaan (LYKAN)",
+    "description": [
+      {
+        "id": 1,
+        "name": "Masuk Ke halaman LYKAN",
+        "url": ""
+      },
+      {
+        "id": 2,
+        "name": "Klik Untuk Download Petunjuk Teknis",
+        "url": ""
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Download SK Akreditasi",
+    "description": [
+      {
+        "id": 1,
+        "name": "Pilih Perguruan Tinggi",
+        "url": ""
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "title": "NISN",
+    "description": [
+      {
+        "id": 1,
+        "name": "Input Data NISN",
+        "url": ""
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "title": "Nomor HP & Alamat Email Aktif",
+    "description": [
+      {
+        "id": 1,
+        "name": "Input Data ",
+        "url": ""
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "title": "Download Daftar Mata Kuliah Daring",
+    "description": [
+      {
+        "id": 1,
+        "name": "Klik Untuk Download",
+        "url": ""
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "title": "Download Mata Kuliah Tambahan Mahasiswa Aktivasi dan Cuti",
+    "description": [
+      {
+        "id": 1,
+        "name": "Download Data",
+        "url": ""
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "title": "Download Jadwal Mata Kuliah PTM",
+    "description": [
+      {
+        "id": 1,
+        "name": "Download Data",
+        "url": ""
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "title": "Petunjuk Teknis Presensi Kuliah",
+    "description": [
+      {
+        "id": 1,
+        "name": "Download Petunjuk Teknis Presensi",
+        "url": ""
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "title": "Panduan Ujian Online",
+    "description": [
+      {
+        "id": 1,
+        "name": "Lihat Panduan Ujian Online",
+        "url": ""
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "title": "Panduan Akademik",
+    "description": [
+      {
+        "id": 1,
+        "name": "Download Buku Panduan Akademik Universitas BSI",
+        "url": ""
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "title": "Download Materi Capita Selecta",
+    "description": [
+      {
+        "id": 1,
+        "name": "Klik Untuk Download Materi Capita Selecta Kewarganegaraan BSI",
+        "url": ""
+      },
+      {
+        "id": 2,
+        "name": "Klik Untuk Download Materi Capita Selecta Bahasa Indonesia BSI",
+        "url": ""
+      },
+      {
+        "id": 3,
+        "name": "Klik Untuk Download Materi Capita Selecta Pendidikan Agama Islam BSI",
+        "url": ""
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "title": "Upload Berkas Syarat Mahasiswa Baru",
+    "description": [
+      {
+        "id": 1,
+        "name": "Klik Untuk Upload Photo Plus KTP Syarat Mahasiswa Baru",
+        "url": ""
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "title": "Form Komplain Email Mahasiswa",
+    "description": [
+      {
+        "id": 1,
+        "name": "Klik Untuk buat Form Komplain Email Mahasiswa",
+        "url": ""
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "title": "Kode Etik Mahasiswa UBSI",
+    "description": [
+      {
+        "id": 1,
+        "name": "Download Kode Etik Mahasiswa UBSI",
+        "url": ""
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "title": "Email Mahasiswa",
+    "description": [
+      {
+        "id": 1,
+        "name": "Akses Email Via Gmail.Com. Email : 17200285@bsi.ac.id , Password : 20010619 , Setelah Login dapat Mengganti Password Standar Anda",
+        "url": ""
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "title": "Juklak Ujian Online",
+    "description": [
+      {
+        "id": 1,
+        "name": "Download juklak ujian online disini",
+        "url": ""
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "title": "Dosen Penasehat Akademik",
+    "description": [
+      {
+        "id": 1,
+        "name": "Dosen Penasehat Akademik Anda : ...",
+        "url": ""
+      },
+      {
+        "id": 2,
+        "name": "Lihat Informasi Konseling",
+        "url": ""
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "title": "Jadwal UTS Online Ganjil 2023/2024",
+    "description": [
+      {
+        "id": 1,
+        "name": "Klik Untuk Lihat Jadwal",
+        "url": ""
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "title": "Jadwal UAS Online Ganjil 2023/2024",
+    "description": [
+      {
+        "id": 1,
+        "name": "Klik Untuk Lihat Jadwal",
+        "url": ""
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "title": "Download Soal Workshop dan KBK",
+    "description": [
+      {
+        "id": 1,
+        "name": "Download Soal Workshop Prodi Bahasa Inggris dan Sastra Inggris NEW!!! (21-12-2023)",
+        "url": ""
+      }
+    ]
+  },
+  {
+    "id": 21,
+    "title": "Form Komplain Ujian Online",
+    "description": [
+      {
+        "id": 1,
+        "name": "Klik Untuk Pengajuan Ujian Pengganti",
+        "url": ""
+      },
+      {
+        "id": 2,
+        "name": "Panduan Pengisian Form Komplain Ujian Online",
+        "url": ""
+      }
+    ]
+  },
+  {
+    "id": 22,
+    "title": "Form Komplain Soal Ujian Online",
+    "description": [
+      {
+        "id": 1,
+        "name": "Klik Untuk Komplain Soal Ujian Online",
+        "url": ""
+      },
+      {
+        "id": 2,
+        "name": "Panduan Pengisian Form Komplain Soal Ujian Online",
+        "url": ""
+      }
+    ]
+  },
+  {
+    "id": 23,
+    "title": "Download Soal UTS D3",
+    "description": [
+      {
+        "id": 1,
+        "name": "Download Soal UTS D3",
+        "url": ""
+      }
+    ]
+  },
+  {
+    "id": 24,
+    "title": "Download Soal UAS D3",
+    "description": [
+      {
+        "id": 1,
+        "name": "Download Soal UAS D3",
+        "url": ""
+      }
+    ]
+  },
+  {
+    "id": 25,
+    "title": "Download Soal HER UBSI",
+    "description": [
+      {
+        "id": 1,
+        "name": "Download Soal HER UBSI",
+        "url": ""
+      }
+    ]
+  },
+  {
+    "id": 26,
+    "title": "Perubahan Jadwal Ujian",
+    "description": [
+      {
+        "id": 1,
+        "name": "Download Data Perubahan Jadwal Ujian",
+        "url": ""
+      }
+    ]
+  },
+  {
+    "id": 27,
+    "title": "Panduan E-Learning",
+    "description": [
+      {
+        "id": 1,
+        "name": "Download Panduan E-Learning",
+        "url": ""
+      }
+    ]
+  },
+  {
+    "id": 28,
+    "title": "Pedoman Skripsi dan Tugas Akhir",
+    "description": [
+      {
+        "id": 1,
+        "name": "Download Pedoman & Handout Skripsi / Tugas Akhir NEW!!! (21-08-2023)",
+        "url": ""
+      }
+    ]
+  },
+  {
+    "id": 29,
+    "title": "Download Pedoman PKL dan PMK",
+    "description": [
+      {
+        "id": 1,
+        "name": "Download Pedoman PKL NEW!!! (05-09-2023)",
+        "url": ""
+      },
+      {
+        "id": 2,
+        "name": "Download Pedoman PMK NEW!!! (05-09-2023)",
+        "url": ""
+      }
+    ]
+  },
+  {
+    "id": 30,
+    "title": "E-Library",
+    "description": [
+      {
+        "id": 1,
+        "name": "Klik Untuk E-Library",
+        "url": ""
+      }
+    ]
+  },
+  {
+    "id": 31,
+    "title": "Kuesioner",
+    "description": [
+      {
+        "id": 1,
+        "name": "Download Petunjuk Pengisian Kuesioner",
+        "url": ""
+      },
+      {
+        "id": 1,
+        "name": "Login Ke Halaman Kuesioner",
+        "url": ""
+      }
+    ]
+  },
+  {
+    "id": 32,
+    "title": "Hasil Pengolahan Kuesioner",
+    "description": [
+      {
+        "id": 1,
+        "name": "Hasil Skor rata-rata Layanan Dosen dan Tenaga Kependidikan",
+        "url": ""
+      },
+      {
+        "id": 2,
+        "name": "Hasil Skor rata-rata Persepsi Mahasiswa Terhadap Layanan Kemahasiswaan",
+        "url": ""
+      },
+      {
+        "id": 3,
+        "name": "Hasil Skor rata-rata Persepsi Mahasiswa Terhadap Dosen",
+        "url": ""
+      },
+      {
+        "id": 4,
+        "name": "Hasil Skor rata-rata Tingkat Pemahaman Visi dan Misi",
+        "url": ""
+      },
+      {
+        "id": 5,
+        "name": "Hasil Skor rata-rata Sistem Pengelolaan SDM",
+        "url": ""
+      },
+      {
+        "id": 6,
+        "name": "Hasil Skor rata-rata LPPM",
+        "url": ""
+      }
+    ]
+  }
+]

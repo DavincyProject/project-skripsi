@@ -1,7 +1,6 @@
-import Navbar from "@/components/Navbar";
+import LayananLain from "@/components/homepages/LayananLain";
 import PdfTable from "@/components/homepages/PdfTable";
 import ProfileCard from "@/components/homepages/ProfileCard";
-import Image from "next/image";
 
 export default function Home() {
   return (
@@ -15,6 +14,9 @@ export default function Home() {
           <PdfTable />
         </div>
       </section>
+      <div className="card border p-3 shadow-lg">
+        <LayananLain />
+      </div>
     </div>
   );
 }

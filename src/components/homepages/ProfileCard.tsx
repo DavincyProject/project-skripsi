@@ -2,6 +2,7 @@ import Image from "next/image";
 import dataAkademik from "../../utils/dataAkademik.json";
 import dataMahasiswa from "../../utils/dataMahasiswa.json";
 
+// akan berada di homepage sebagai informasi singkat
 const ProfileCard = () => {
   return (
     <>
