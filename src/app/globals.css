@@ -21,3 +21,13 @@
   background-color: #edf2f7;
   border-radius: 6px;
 }
+
+.active-blue {
+  background-color: #0f52ba;
+  color: white;
+  font-weight: bold;
+}
+
+.active-blue:hover {
+  background-color: #4169e1;
+}

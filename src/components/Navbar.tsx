@@ -2,6 +2,7 @@
 
 import Image from "next/image";
 import Link from "next/link";
+import { usePathname } from "next/navigation";
 import { useState, useEffect } from "react";
 import { RiLogoutBoxLine } from "react-icons/ri";
 
@@ -58,23 +59,27 @@ const Navbar = () => {
     },
   ];
 
+  const pathname = usePathname();
+
+  // const isLoggedIn = localStorage.getItem("isLoggedIn");
+
   return (
     <>
       <div
         className={`navbar justify-between overflow-x-none sticky z-10 top-0 bg-base-100 transition-all ease-in-out shadow-md ${
-          isScrolled && "bg-opacity-30 backdrop-blur-sm bg-white"
+          isScrolled && "bg-opacity-30 backdrop-blur-md bg-white"
         }`}
       >
-        <div className="navbar-start">
+        <div className="navbar-start w-fit min-w-72">
           <Link href="/" className="flex items-center gap-2">
             <div>
-              <Image alt="logo bsi" src="logo_bsi.svg" width={50} height={50} />
+              <Image alt="logo bsi" src="logo_bsi.svg" width={45} height={45} />
             </div>
-            <div className="w-96 text-xs sm:text-sm md:text-md lg:text-base">
-              <h1 className="m-0 font-bold ">
+            <div className="text-xs sm:text-sm md:text-md lg:text-base">
+              <h1 className="m-0 font-bold">
                 SIAKAD STUDENT
                 <br />
-                <span className="font-normal ">
+                <span className="font-normal text-xs sm:text-sm md:text-md lg:text-base">
                   Universitas Bina Sarana Informatika
                 </span>
               </h1>
@@ -82,6 +87,7 @@ const Navbar = () => {
           </Link>
         </div>
 
+        {/* {isLoggedIn ? ( */}
         <div className="navbar-end">
           <div className="dropdown dropdown-end">
             <div
@@ -109,13 +115,20 @@ const Navbar = () => {
               className="mt-3 z-[1] p-2 shadow menu menu-sm gap-2 dropdown-content bg-base-100 rounded-box w-52"
             >
               <li>
-                <Link href={"/dashboard"}>Pengajuan Surat</Link>
+                <Link
+                  className={`link no-underline ${
+                    pathname === "/surat" ? "active-blue" : ""
+                  }`}
+                  href="/surat"
+                >
+                  Pengajuan Surat
+                </Link>
               </li>
               <li>
                 <details>
                   <summary>Nilai Mahasiswa</summary>
                   <ul>
-                    {nilai.map((n) => (
+                    {nilai.map((n: any) => (
                       <li key={n.id} className="my-1">
                         <Link href={n.route}>{n.name}</Link>
                       </li>
@@ -164,6 +177,9 @@ const Navbar = () => {
             </ul>
           </div>
         </div>
+        {/* ) : (
+          <></>
+        )} */}
       </div>
     </>
   );

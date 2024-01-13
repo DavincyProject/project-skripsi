@@ -31,6 +31,7 @@ const ProfileCard = () => {
               </div>
             </div>
           </div>
+
           <div className="card shadow-md p-3 bg-white">
             <h1 className="font-bold mb-2">Data Mahasiswa</h1>
             {dataMahasiswa.map((akademik) => (

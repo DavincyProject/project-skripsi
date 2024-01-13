@@ -14,7 +14,8 @@ export default function Home() {
           <PdfTable />
         </div>
       </section>
-      <div className="card border p-3 shadow-lg">
+      <h1 className="font-bold text-center text-xl my-2">Informasi Lainnya</h1>
+      <div className="card border p-3 shadow-lg overflow-y-scroll max-h-[80dvh] custom-scrollbar">
         <LayananLain />
       </div>
     </div>

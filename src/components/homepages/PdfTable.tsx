@@ -12,6 +12,7 @@ const PdfTable = () => {
         akademik kemahasiswaan dan diharapkan seluruh mahasiswa UBSI yang masih
         aktif dapat memperoleh informasi dengan mudah melalui website ini.
       </h1>
+      <h1 className="font-bold text-xl my-2">Dokumen Rilis</h1>
       <section>
         <div className="overflow-y-scroll max-h-[80dvh] custom-scrollbar">
           <table className="table border shadow-md rounded-md">
