@@ -12,6 +12,9 @@ const Navbar = () => {
   const router = useRouter();
   const pathname = usePathname();
 
+  const isLoggedIn =
+    typeof window !== "undefined" ? localStorage.getItem("isLoggedIn") : null;
+
   useEffect(() => {
     const handleScroll = () => setIsScrolled(window.scrollY > 0);
 
@@ -67,12 +70,11 @@ const Navbar = () => {
     router.push("/login");
   };
 
-  const isLoggedIn =
-    typeof window !== "undefined" ? localStorage.getItem("isLoggedIn") : null;
-
-  if (isLoggedIn !== "true") {
-    router.push("/login");
-  }
+  useEffect(() => {
+    if (isLoggedIn !== "true") {
+      router.push("/login");
+    }
+  });
 
   return (
     <>

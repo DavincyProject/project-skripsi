@@ -31,3 +31,10 @@
 .active-blue:hover {
   background-color: #4169e1;
 }
+
+.testing {
+  background-image: url("/auth/wave.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+}
