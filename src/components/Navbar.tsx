@@ -5,9 +5,12 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useState, useEffect } from "react";
 import { RiLogoutBoxLine } from "react-icons/ri";
+import { useRouter } from "next/navigation";
 
 const Navbar = () => {
   const [isScrolled, setIsScrolled] = useState(false);
+  const router = useRouter();
+  const pathname = usePathname();
 
   useEffect(() => {
     const handleScroll = () => setIsScrolled(window.scrollY > 0);
@@ -59,9 +62,17 @@ const Navbar = () => {
     },
   ];
 
-  const pathname = usePathname();
+  const logout = () => {
+    localStorage.removeItem("isLoggedIn");
+    router.push("/login");
+  };
 
-  // const isLoggedIn = localStorage.getItem("isLoggedIn");
+  const isLoggedIn =
+    typeof window !== "undefined" ? localStorage.getItem("isLoggedIn") : null;
+
+  if (isLoggedIn !== "true") {
+    router.push("/login");
+  }
 
   return (
     <>
@@ -87,99 +98,101 @@ const Navbar = () => {
           </Link>
         </div>
 
-        {/* {isLoggedIn ? ( */}
-        <div className="navbar-end">
-          <div className="dropdown dropdown-end">
-            <div
-              tabIndex={0}
-              role="button"
-              className="btn btn-ghost btn-circle"
-            >
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                className="h-5 w-5"
-                fill="none"
-                viewBox="0 0 24 24"
-                stroke="currentColor"
+        {isLoggedIn ? (
+          <div className="navbar-end">
+            <div className="dropdown dropdown-end">
+              <div
+                tabIndex={0}
+                role="button"
+                className="btn btn-ghost btn-circle"
               >
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  strokeWidth="2"
-                  d="M4 6h16M4 12h16M4 18h7"
-                />
-              </svg>
-            </div>
-            <ul
-              tabIndex={0}
-              className="mt-3 z-[1] p-2 shadow menu menu-sm gap-2 dropdown-content bg-base-100 rounded-box w-52"
-            >
-              <li>
-                <Link
-                  className={`link no-underline ${
-                    pathname === "/surat" ? "active-blue" : ""
-                  }`}
-                  href="/surat"
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  className="h-5 w-5"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
                 >
-                  Pengajuan Surat
-                </Link>
-              </li>
-              <li>
-                <details>
-                  <summary>Nilai Mahasiswa</summary>
-                  <ul>
-                    {nilai.map((n: any) => (
-                      <li key={n.id} className="my-1">
-                        <Link href={n.route}>{n.name}</Link>
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth="2"
+                    d="M4 6h16M4 12h16M4 18h7"
+                  />
+                </svg>
+              </div>
+              <ul
+                tabIndex={0}
+                className="mt-3 z-[1] p-2 shadow menu menu-sm gap-2 dropdown-content bg-base-100 rounded-box w-52"
+              >
+                <li>
+                  <Link
+                    className={`link no-underline ${
+                      pathname === "/surat" ? "active-blue" : ""
+                    }`}
+                    href="/surat"
+                  >
+                    Pengajuan Surat
+                  </Link>
+                </li>
+                <li>
+                  <details>
+                    <summary>Nilai Mahasiswa</summary>
+                    <ul>
+                      {nilai.map((n: any) => (
+                        <li key={n.id} className="my-1">
+                          <Link href={n.route}>{n.name}</Link>
+                        </li>
+                      ))}
+                    </ul>
+                  </details>
+                </li>
+                <li>
+                  <details>
+                    <summary>Data Mahasiswa</summary>
+                    <ul>
+                      <li className="my-1">
+                        <Link href="/">Data Pribadi Mahasiswa</Link>
                       </li>
-                    ))}
-                  </ul>
-                </details>
-              </li>
-              <li>
-                <details>
-                  <summary>Data Mahasiswa</summary>
-                  <ul>
-                    <li className="my-1">
-                      <Link href="/">Data Pribadi Mahasiswa</Link>
-                    </li>
-                    <li className="my-1">
-                      <Link href="/">Kartu Rencana Studi</Link>
-                    </li>
-                  </ul>
-                </details>
-              </li>
-              <li>
-                <details>
-                  <summary>Info Akademik</summary>
-                  <ul>
-                    <li className="my-1">
-                      <Link href="/">Kalender Akademik</Link>
-                    </li>
-                    <li className="my-1">
-                      <Link href="/">Jadwal Kuliah</Link>
-                    </li>
-                    <li className="my-1">
-                      <Link href="/">Jadwal Mengajar Dosen</Link>
-                    </li>
-                    <li className="my-1">
-                      <Link href="/">Email Program Studi</Link>
-                    </li>
-                  </ul>
-                </details>
-              </li>
-              <li>
-                <div className="flex gap-1 text-white bg-red-600 hover:bg-red-500 justify-center">
-                  <RiLogoutBoxLine />
-                  <span>Logout</span>
-                </div>
-              </li>
-            </ul>
+                      <li className="my-1">
+                        <Link href="/">Kartu Rencana Studi</Link>
+                      </li>
+                    </ul>
+                  </details>
+                </li>
+                <li>
+                  <details>
+                    <summary>Info Akademik</summary>
+                    <ul>
+                      <li className="my-1">
+                        <Link href="/">Kalender Akademik</Link>
+                      </li>
+                      <li className="my-1">
+                        <Link href="/">Jadwal Kuliah</Link>
+                      </li>
+                      <li className="my-1">
+                        <Link href="/">Jadwal Mengajar Dosen</Link>
+                      </li>
+                      <li className="my-1">
+                        <Link href="/">Email Program Studi</Link>
+                      </li>
+                    </ul>
+                  </details>
+                </li>
+                <li>
+                  <div className="flex gap-1 text-white bg-red-600 hover:bg-red-500 justify-center">
+                    <RiLogoutBoxLine />
+                    <span>
+                      <button onClick={logout}>Logout</button>
+                    </span>
+                  </div>
+                </li>
+              </ul>
+            </div>
           </div>
-        </div>
-        {/* ) : (
+        ) : (
           <></>
-        )} */}
+        )}
       </div>
     </>
   );

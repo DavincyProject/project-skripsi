@@ -1,7 +1,7 @@
 import ProfileCard from "@/components/homepages/ProfileCard";
 import SuratCard from "@/components/surat/SuratCard";
 
-const DashboardPage = () => {
+export default function DashboardPage() {
   return (
     <div className="min-h-[100dvh] p-5">
       {/* table and profile card will show from here */}
@@ -15,6 +15,4 @@ const DashboardPage = () => {
       </section>
     </div>
   );
-};
-
-export default DashboardPage;
+}
