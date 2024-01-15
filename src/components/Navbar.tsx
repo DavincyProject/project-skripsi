@@ -9,11 +9,16 @@ import { useRouter } from "next/navigation";
 
 const Navbar = () => {
   const [isScrolled, setIsScrolled] = useState(false);
+  const [isMounted, setIsMounted] = useState(false);
+
   const router = useRouter();
   const pathname = usePathname();
 
-  const isLoggedIn =
-    typeof window !== "undefined" ? localStorage.getItem("isLoggedIn") : null;
+  useEffect(() => {
+    setIsMounted(true);
+  }, []);
+
+  const isLoggedIn = isMounted ? localStorage.getItem("isLoggedIn") : null;
 
   useEffect(() => {
     const handleScroll = () => setIsScrolled(window.scrollY > 0);
@@ -71,10 +76,10 @@ const Navbar = () => {
   };
 
   useEffect(() => {
-    if (isLoggedIn !== "true") {
+    if (isMounted && isLoggedIn !== "true") {
       router.push("/login");
     }
-  });
+  }, [isMounted, isLoggedIn]);
 
   return (
     <>
@@ -182,18 +187,19 @@ const Navbar = () => {
                   </details>
                 </li>
                 <li>
-                  <div className="flex gap-1 text-white bg-red-600 hover:bg-red-500 justify-center">
+                  <button
+                    onClick={logout}
+                    className="flex gap-1 text-white bg-red-600 hover:bg-red-500 justify-center"
+                  >
                     <RiLogoutBoxLine />
-                    <span>
-                      <button onClick={logout}>Logout</button>
-                    </span>
-                  </div>
+                    <span>Logout</span>
+                  </button>
                 </li>
               </ul>
             </div>
           </div>
         ) : (
-          <></>
+          <div></div>
         )}
       </div>
     </>
