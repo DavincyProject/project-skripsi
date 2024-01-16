@@ -38,3 +38,13 @@
   background-size: cover;
   height: 100%;
 }
+
+.bg-darkblue {
+  background-color: #6148ff;
+  color: white;
+}
+
+.btn-blue {
+  background-color: #6148ff;
+  color: white;
+}
