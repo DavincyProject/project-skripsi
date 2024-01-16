@@ -13,7 +13,10 @@ const Navbar = () => {
   const router = useRouter();
   const pathname = usePathname();
 
-  const isLoggedIn = localStorage.getItem("isLoggedIn");
+  const isLoggedIn =
+    typeof window !== "undefined"
+      ? window.localStorage.getItem("isLoggedIn")
+      : null;
 
   if (isLoggedIn !== "true") {
     router.push("/login");
