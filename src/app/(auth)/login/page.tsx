@@ -99,10 +99,10 @@ const Page = () => {
                 <div className="divider">atau</div>
 
                 <div className="flex justify-center flex-wrap gap-2">
-                  <button className="btn btn-info hover:bg-darkblue btn-wide text-white ">
+                  <button className="btn btn-info hover:bg-darkblue w-full md:btn-wide md:flex-1 text-white ">
                     Aktivasi Mahasiswa Keluar
                   </button>
-                  <button className="btn btn-info hover:bg-darkblue btn-wide text-white">
+                  <button className="btn btn-info hover:bg-darkblue w-full md:btn-wide md:flex-1 text-white">
                     Cek NIM Baru / Surat Keluar / Surat DO
                   </button>
                 </div>
