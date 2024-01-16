@@ -4,6 +4,7 @@ import "./globals.css";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import favicon from "../../public/favicon.ico";
+import LoginProtect from "@/components/Protected/LoginProtect";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -22,9 +23,11 @@ export default function RootLayout({
   return (
     <html lang="en" data-theme="light">
       <body className={inter.className}>
-        <Navbar />
-        {children}
-        <Footer />
+        <LoginProtect>
+          <Navbar />
+          {children}
+          <Footer />
+        </LoginProtect>
       </body>
     </html>
   );

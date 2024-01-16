@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "name": "Nilai Murni UTS",
+    "route": "/"
+  },
+  {
+    "id": 2,
+    "name": "Nilai Murni UAS",
+    "route": "/"
+  },
+  {
+    "id": 3,
+    "name": "Nilai Ujian Murni",
+    "route": "/"
+  },
+  {
+    "id": 4,
+    "name": "Nilai Murni HER",
+    "route": "/"
+  },
+  {
+    "id": 5,
+    "name": "Kartu Hasil Studi",
+    "route": "/"
+  },
+  {
+    "id": 6,
+    "name": "KHS Semester",
+    "route": "/"
+  },
+  {
+    "id": 7,
+    "name": "Nilai HER Non OCR Dan Total",
+    "route": "/"
+  },
+  {
+    "id": 8,
+    "name": "Nilai UAS Non OCR Dan Total",
+    "route": "/"
+  }
+]
