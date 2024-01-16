@@ -23,35 +23,6 @@ const Page = () => {
   };
 
   return (
-    // <div className="grid grid-cols-2 place-content-center min-h-[90dvh]">
-    //   <div className="testing min-h-screen col-span-1 flex justify-center items-center">
-    //     <Image
-    //       src={"/auth/side_img.svg"}
-    //       width={500}
-    //       height={300}
-    //       alt="login image"
-    //     />
-    //   </div>
-    //   <div className="grid-cols-1">
-    //     <div className="flex justify-center items-center">
-    //       <div className="card w-96 bg-base-100 shadow-xl">
-    //         <div className="card-body items-center ">
-    //           <h2 className="card-title">Welcome Back to SISFO UBSI!</h2>
-    //           <p>
-    //             Silahkan masukkan informasi login anda dengan NIM dan Password
-    //           </p>
-    //           <div className="badge badge-primary p-2">⚠️ TESTING ONLY</div>
-    //           <div className="card-actions">
-    //             <button className="btn btn-primary btn-wide" onClick={login}>
-    //               Login
-    //             </button>
-    //           </div>
-    //         </div>
-    //       </div>
-    //     </div>
-    //   </div>
-    // </div>
-
     <>
       <div className="px-2">
         <div id="background-login"></div>
@@ -66,7 +37,7 @@ const Page = () => {
           </div>
 
           <div className="md:max-w-[50%]">
-            <div className="card shadow-xl border">
+            <div className="card shadow-xl border bg-white">
               <div className="card-body items-center text-center">
                 <h2 className="card-title">Selamat Datang Di SISFO UBSI</h2>
                 <small>
@@ -118,7 +89,7 @@ const Page = () => {
 
                   <button
                     onClick={login}
-                    className="btn btn-primary hover:bg-darkblue btn-wide text-white font-bold text-md"
+                    className="btn btn-primary hover:bg-darkblue w-full md:btn-wide md:flex-1 text-white font-bold text-md"
                   >
                     Masuk
                     <RiLoginBoxFill size={18} />

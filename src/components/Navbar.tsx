@@ -9,16 +9,15 @@ import { useRouter } from "next/navigation";
 
 const Navbar = () => {
   const [isScrolled, setIsScrolled] = useState(false);
-  const [isMounted, setIsMounted] = useState(false);
 
   const router = useRouter();
   const pathname = usePathname();
 
-  useEffect(() => {
-    setIsMounted(true);
-  }, []);
+  const isLoggedIn = localStorage.getItem("isLoggedIn");
 
-  const isLoggedIn = isMounted ? localStorage.getItem("isLoggedIn") : null;
+  if (isLoggedIn !== "true") {
+    router.push("/login");
+  }
 
   useEffect(() => {
     const handleScroll = () => setIsScrolled(window.scrollY > 0);
@@ -75,12 +74,6 @@ const Navbar = () => {
     router.push("/login");
   };
 
-  useEffect(() => {
-    if (isMounted && isLoggedIn !== "true") {
-      router.push("/login");
-    }
-  }, [isMounted, isLoggedIn]);
-
   return (
     <>
       <div
@@ -130,11 +123,11 @@ const Navbar = () => {
               </div>
               <ul
                 tabIndex={0}
-                className="mt-3 z-[1] p-2 shadow menu menu-sm gap-2 dropdown-content bg-base-100 rounded-box w-52"
+                className="mt-3 z-[1] p-2 shadow menu menu-sm  gap-2 dropdown-content bg-base-100 rounded-box w-52"
               >
                 <li>
                   <Link
-                    className={`link no-underline ${
+                    className={`link hover:bg-[#0f52ba] hover:text-white no-underline ${
                       pathname === "/surat" ? "active-blue" : ""
                     }`}
                     href="/surat"
