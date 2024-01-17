@@ -16,7 +16,7 @@ const LoginProtect = ({ children }: { children: React.ReactNode }) => {
     }
   }, [router]);
 
-  return <>{children}</>;
+  return <div>{children}</div>;
 };
 
 export default LoginProtect;

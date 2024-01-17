@@ -4,7 +4,6 @@ import Image from "next/image";
 import { useRouter } from "next/navigation";
 import { useEffect } from "react";
 import { RiLoginBoxFill } from "react-icons/ri";
-import { FaMoneyCheck } from "react-icons/fa6";
 
 const Page = () => {
   const router = useRouter();
@@ -25,7 +24,6 @@ const Page = () => {
   return (
     <>
       <div className="px-2">
-        <div id="background-login"></div>
         <div className="flex flex-wrap justify-evenly items-center min-h-screen">
           <div className="max-w-[50%] hidden md:block">
             <Image
