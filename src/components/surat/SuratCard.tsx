@@ -1,5 +1,6 @@
 import Image from "next/image";
 import surat from "../../utils/surat.json";
+import Link from "next/link";
 
 const SuratCard = () => {
   return (
@@ -22,9 +23,11 @@ const SuratCard = () => {
             <h2 className="card-title">{suratCard.title}</h2>
             <p>{suratCard.description}</p>
             <div className="card-actions mt-2">
-              <button className="btn btn-ghost bg-[#5B7EED] hover:bg-[#4d6edb] text-white font-bold">
-                Ajukan Surat
-              </button>
+              <Link href={`/${suratCard.slug}`}>
+                <button className="btn btn-ghost bg-[#5B7EED] hover:bg-[#4d6edb] text-white font-bold">
+                  Ajukan Surat
+                </button>
+              </Link>
             </div>
           </div>
         </div>
