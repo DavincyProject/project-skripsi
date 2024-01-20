@@ -5,15 +5,22 @@ export default function DashboardPage() {
   return (
     <div className="min-h-[100dvh] p-5">
       {/* table and profile card will show from here */}
+      <h1 className="text-justify mb-1">
+        Selamat Datang di fasilitas layanan kemahasiswaan Universitas Bina
+        Sarana Informatika. Fasilitas ini merupakan salah satu bentuk pelayanan
+        dari Universitas Bina Sarana Informatika dalam penyediaan informasi
+        akademik kemahasiswaan dan diharapkan seluruh mahasiswa UBSI yang masih
+        aktif dapat memperoleh informasi dengan mudah melalui website ini.
+      </h1>
       <section className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
         <div className="col-span-1">
           <div className="text-sm breadcrumbs">
             <ul>
               <li>
-                <a>Home</a>
+                <h1>Beranda</h1>
               </li>
               <li>
-                <a className="underline">Surat</a>
+                <h1>Pengajuan Surat</h1>
               </li>
             </ul>
           </div>

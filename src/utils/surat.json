@@ -3,49 +3,49 @@
     "id": 1,
     "title": "Pengajuan Cuti Akademik",
     "description": "this is description",
-    "slug": "/",
+    "slug": "daftar_cuti_akademik",
     "img": "https://images.pexels.com/photos/211291/pexels-photo-211291.jpeg"
   },
   {
     "id": 2,
     "title": "Pengajuan Mutasi Kampus",
     "description": "this is description",
-    "slug": "/",
+    "slug": "pengajuan_mutasi_kampus",
     "img": "https://images.pexels.com/photos/211291/pexels-photo-211291.jpeg"
   },
   {
     "id": 3,
     "title": "Pengajuan Aktif Cuti Akademik",
     "description": "this is description",
-    "slug": "/",
+    "slug": "aktif_cuti_akademik",
     "img": "https://images.pexels.com/photos/211291/pexels-photo-211291.jpeg"
   },
   {
     "id": 4,
     "title": "Buat Pengajuan Ubah Biodata",
     "description": "this is description",
-    "slug": "/",
+    "slug": "ubah_biodata",
     "img": "https://images.pexels.com/photos/211291/pexels-photo-211291.jpeg"
   },
   {
     "id": 5,
     "title": "Buat Surat Keterangan",
     "description": "this is description",
-    "slug": "/",
+    "slug": "surat_keterangan",
     "img": "https://images.pexels.com/photos/211291/pexels-photo-211291.jpeg"
   },
   {
     "id": 6,
     "title": "Buat Surat Riset",
     "description": "this is description",
-    "slug": "/",
+    "slug": "surat_riset",
     "img": "https://images.pexels.com/photos/211291/pexels-photo-211291.jpeg"
   },
   {
     "id": 7,
     "title": "Buat Surat Riset Tugas Kuliah",
     "description": "this is description",
-    "slug": "/",
+    "slug": "surat_riset_tugas",
     "img": "https://images.pexels.com/photos/211291/pexels-photo-211291.jpeg"
   }
 ]
