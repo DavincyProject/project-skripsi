@@ -33,10 +33,13 @@
 }
 
 .testing {
-  background-image: url("/auth/wave.png");
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 100%;
+  background: rgb(222, 221, 231);
+  background: linear-gradient(
+    180deg,
+    rgba(222, 221, 231, 1) 0%,
+    rgba(183, 219, 255, 1) 51%,
+    rgba(142, 212, 226, 1) 100%
+  );
 }
 
 .bg-darkblue {

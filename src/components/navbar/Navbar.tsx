@@ -52,22 +52,14 @@ const Navbar = () => {
         </div>
 
         {/* Mobile navbar start here */}
-        {isLoggedIn ? (
-          <div className="block md:hidden">
-            <Mobile />
-          </div>
-        ) : (
-          <div></div>
-        )}
+        <div className="block lg:hidden">
+          <Mobile />
+        </div>
 
         {/* desktop navbar */}
-        {isLoggedIn ? (
-          <div className="hidden md:block">
-            <Desktop />
-          </div>
-        ) : (
-          <div></div>
-        )}
+        <div className="hidden lg:block">
+          <Desktop />
+        </div>
       </div>
     )
   );

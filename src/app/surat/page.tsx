@@ -19,7 +19,8 @@ export default function DashboardPage() {
           </div>
           <ProfileCard />
         </div>
-        <div className="col-span-1 md:col-span-2 p-5 shadow-xl rounded-xl">
+
+        <div className="col-span-1 md:col-span-2 p-5 shadow-xl rounded-xl overflow-y-scroll custom-scrollbar max-h-[100dvh] mt-10">
           <SuratCard />
         </div>
       </section>

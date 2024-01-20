@@ -23,7 +23,7 @@ const Page = () => {
 
   return (
     <>
-      <div className="px-2">
+      <div className="p-2">
         <div className="flex flex-wrap justify-evenly items-center min-h-screen">
           <div className="max-w-[50%] hidden md:block">
             <Image
@@ -37,7 +37,13 @@ const Page = () => {
           <div className="md:max-w-[50%]">
             <div className="card shadow-xl border bg-white">
               <div className="card-body items-center text-center">
-                <h2 className="card-title">Selamat Datang Di SISFO UBSI</h2>
+                <Image
+                  alt="logo bsi"
+                  src="logo_bsi.svg"
+                  width={50}
+                  height={50}
+                />
+                <h2 className="card-title">Selamat Datang Di SIAKAD UBSI</h2>
                 <small>
                   Gunakan Nomor Induk Mahasiswa (NIM) dan password yang <br />{" "}
                   berupa tanggal lahir Anda untuk mengakses Sisfo Akademik ini.
@@ -60,7 +66,7 @@ const Page = () => {
                     </div>
                     <input
                       type="YYYY-MM-DD"
-                      placeholder="Masukkan Password"
+                      placeholder="Gunakan Format YYYY-MM-DD"
                       className="input input-bordered w-full"
                     />
                   </label>
@@ -97,10 +103,10 @@ const Page = () => {
                 <div className="divider">atau</div>
 
                 <div className="flex justify-center flex-wrap gap-2">
-                  <button className="btn btn-info hover:bg-darkblue w-full md:btn-wide md:flex-1 text-white ">
+                  <button className="btn btn-error hover:bg-darkblue w-full md:btn-wide md:flex-1 text-white ">
                     Aktivasi Mahasiswa Keluar
                   </button>
-                  <button className="btn btn-info hover:bg-darkblue w-full md:btn-wide md:flex-1 text-white">
+                  <button className="btn btn-error hover:bg-darkblue w-full md:btn-wide md:flex-1 text-white">
                     Cek NIM Baru / Surat Keluar / Surat DO
                   </button>
                 </div>
