@@ -35,7 +35,7 @@ const MutasiKampus = () => {
       </div>
 
       <div className="md:ml-8 mt-1">
-        <p className="text-justify">
+        <p className="text-justify text-sm sm:text-md md:text-base">
           Selamat Datang{" "}
           <span className="text-red-500 font-bold">Username</span> pada laman
           pengajuan mutasi kampus, silahkan isi data-data yang diperlukan untuk

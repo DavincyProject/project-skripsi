@@ -7,7 +7,7 @@ const page = () => {
   return (
     <LayoutSurat>
       <Back url={"/surat"} />
-      <br />
+
       <MutasiKampus />
     </LayoutSurat>
   );

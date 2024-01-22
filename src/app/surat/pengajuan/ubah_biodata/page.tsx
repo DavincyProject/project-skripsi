@@ -1,4 +1,6 @@
+import Back from "@/components/surat/Back";
 import LayoutSurat from "@/components/surat/LayoutSurat";
+import UbahBiodata from "@/components/surat/UbahBiodata";
 import Link from "next/link";
 import React from "react";
 import { IoMdArrowRoundBack } from "react-icons/io";
@@ -6,15 +8,8 @@ import { IoMdArrowRoundBack } from "react-icons/io";
 const page = () => {
   return (
     <LayoutSurat>
-      <Link
-        href={"/surat"}
-        className="flex items-center gap-1 hover:text-blue-400"
-      >
-        <IoMdArrowRoundBack />
-        Kembali ke halaman sebelumnya
-      </Link>
-      <br />
-      Ubah biodata
+      <Back url="/surat" />
+      <UbahBiodata />
     </LayoutSurat>
   );
 };

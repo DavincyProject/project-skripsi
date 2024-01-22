@@ -47,7 +47,7 @@ const PengajuanCuti = () => {
       </div>
 
       <div className="md:ml-8 mt-1">
-        <p className="text-justify">
+        <p className="text-justify text-sm sm:text-md md:text-base">
           Selamat Datang{" "}
           <span className="text-red-500 font-bold">Username</span> pada laman
           pengajuan cuti, anda hanya bisa melakukan cuti{" "}
