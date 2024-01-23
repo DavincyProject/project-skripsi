@@ -18,7 +18,7 @@ const Navbar = () => {
     setIsLoggedIn(!!loggedIn);
   }, [isLoggedIn]);
 
-  const pathsToHideNavbar = ["/login"];
+  const pathsToHideNavbar = ["/login", "/aktivasi", "/cek"];
   const shouldHideNavbar = pathsToHideNavbar.includes(pathname);
 
   useEffect(() => {

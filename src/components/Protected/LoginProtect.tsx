@@ -1,15 +1,19 @@
 "use client";
 
-import { useRouter } from "next/navigation";
+import { usePathname, useRouter } from "next/navigation";
 import { useEffect } from "react";
 
 const LoginProtect = ({ children }: { children: React.ReactNode }) => {
   const router = useRouter();
+  const pathname = usePathname();
 
   useEffect(() => {
     if (typeof window !== "undefined") {
-      const isLoggedIn = localStorage.getItem("isLoggedIn");
+      if (pathname === "/aktivasi" || pathname === "/cek") {
+        return;
+      }
 
+      const isLoggedIn = localStorage.getItem("isLoggedIn");
       if (isLoggedIn === null || isLoggedIn !== "true") {
         router.push("/login");
       }

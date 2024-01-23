@@ -1,6 +1,7 @@
 "use client";
 
 import Image from "next/image";
+import Link from "next/link";
 import { useRouter } from "next/navigation";
 import { useEffect } from "react";
 import { RiLoginBoxFill } from "react-icons/ri";
@@ -103,12 +104,19 @@ const Page = () => {
                 <div className="divider">atau</div>
 
                 <div className="flex justify-center flex-wrap gap-2">
-                  <button className="btn btn-error hover:bg-darkblue w-full md:btn-wide md:flex-1 text-white ">
+                  <Link
+                    href={"/aktivasi"}
+                    className="btn btn-error hover:bg-darkblue w-full md:btn-wide md:flex-1 text-white "
+                  >
                     Aktivasi Mahasiswa Keluar
-                  </button>
-                  <button className="btn btn-error hover:bg-darkblue w-full md:btn-wide md:flex-1 text-white">
+                  </Link>
+
+                  <Link
+                    href={"/cek"}
+                    className="btn btn-error hover:bg-darkblue w-full md:btn-wide md:flex-1 text-white"
+                  >
                     Cek NIM Baru / Surat Keluar / Surat DO
-                  </button>
+                  </Link>
                 </div>
               </div>
             </div>
