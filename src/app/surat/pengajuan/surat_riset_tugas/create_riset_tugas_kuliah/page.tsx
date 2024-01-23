@@ -1,13 +1,13 @@
 import Back from "@/components/surat/Back";
 import LayoutSurat from "@/components/surat/LayoutSurat";
-import UbahBiodata from "@/components/surat/UbahBiodata";
+import PengantarRisetTugasKuliah from "@/components/surat/PengantarRisetTugasKuliah";
 import React from "react";
 
 const page = () => {
   return (
     <LayoutSurat>
-      <Back url="/surat" />
-      <UbahBiodata />
+      <Back url="/surat/pengajuan/surat_riset_tugas" />
+      <PengantarRisetTugasKuliah />
     </LayoutSurat>
   );
 };
