@@ -1,0 +1,58 @@
+[
+  {
+    "id": 1,
+    "name": "Tidak bekerja"
+  },
+  {
+    "id": 2,
+    "name": "Nelayan"
+  },
+  {
+    "id": 3,
+    "name": "Petani"
+  },
+  {
+    "id": 4,
+    "name": "Peternak"
+  },
+  {
+    "id": 5,
+    "name": "PNS/TN1/Polri"
+  },
+  {
+    "id": 6,
+    "name": "Karyawan Swasta"
+  },
+  {
+    "id": 7,
+    "name": "Pedagang Kecil"
+  },
+  {
+    "id": 8,
+    "name": "Pedagang Besar"
+  },
+  {
+    "id": 9,
+    "name": "Wiraswasta"
+  },
+  {
+    "id": 10,
+    "name": "Wirausaha"
+  },
+  {
+    "id": 11,
+    "name": "Buruh"
+  },
+  {
+    "id": 12,
+    "name": "Pensiunan"
+  },
+  {
+    "id": 13,
+    "name": "Sudah Meninggal"
+  },
+  {
+    "id": 14,
+    "name": "Lainnya"
+  }
+]

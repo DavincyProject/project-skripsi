@@ -122,6 +122,16 @@ const Desktop = () => {
             </details>
           </li>
           <li>
+            <Link
+              className={`link hover:bg-[#0f52ba] hover:text-white no-underline ${
+                pathname === "/verifikasi" ? "active-blue" : ""
+              }`}
+              href="/verifikasi"
+            >
+              Verifikasi Data Pribadi
+            </Link>
+          </li>
+          <li>
             <button
               onClick={logout}
               className="flex gap-1 text-white bg-red-600 hover:bg-red-500 justify-center"
@@ -132,71 +142,6 @@ const Desktop = () => {
           </li>
         </ul>
       </div>
-      {/* <ul>
-        <li>
-          <Link
-            className={`link hover:bg-[#0f52ba] hover:text-white no-underline ${
-              pathname === "/surat" ? "active-blue" : ""
-            }`}
-            href="/surat"
-          >
-            Pengajuan Surat
-          </Link>
-        </li>
-        <li>
-          <details>
-            <summary>Nilai Mahasiswa</summary>
-            <ul>
-              {nilai.map((n: any) => (
-                <li key={n.id} className="my-1">
-                  <Link href={n.route}>{n.name}</Link>
-                </li>
-              ))}
-            </ul>
-          </details>
-        </li>
-        <li>
-          <details>
-            <summary>Data Mahasiswa</summary>
-            <ul>
-              <li className="my-1">
-                <Link href="/">Data Pribadi Mahasiswa</Link>
-              </li>
-              <li className="my-1">
-                <Link href="/">Kartu Rencana Studi</Link>
-              </li>
-            </ul>
-          </details>
-        </li>
-        <li>
-          <details>
-            <summary>Info Akademik</summary>
-            <ul>
-              <li className="my-1">
-                <Link href="/">Kalender Akademik</Link>
-              </li>
-              <li className="my-1">
-                <Link href="/">Jadwal Kuliah</Link>
-              </li>
-              <li className="my-1">
-                <Link href="/">Jadwal Mengajar Dosen</Link>
-              </li>
-              <li className="my-1">
-                <Link href="/">Email Program Studi</Link>
-              </li>
-            </ul>
-          </details>
-        </li>
-        <li>
-          <button
-            onClick={logout}
-            className="flex gap-1 text-white bg-red-600 hover:bg-red-500 justify-center"
-          >
-            <RiLogoutBoxLine />
-            <span>Logout</span>
-          </button>
-        </li>
-      </ul> */}
     </div>
   );
 };

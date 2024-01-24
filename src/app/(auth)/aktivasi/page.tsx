@@ -111,8 +111,8 @@ const page = () => {
                         </label>
                       </div>
 
-                      <div className="card-actions justify-center mt-3">
-                        <button className="btn btn-primary text-white">
+                      <div className="card-actions justify-center mt-3 md:ml-8">
+                        <button className="btn w-full btn-primary text-white">
                           Daftar Aktivasi
                         </button>
                       </div>
@@ -167,8 +167,8 @@ const page = () => {
                         </label>
                       </div>
 
-                      <div className="card-actions justify-center mt-3">
-                        <button className="btn btn-primary text-white">
+                      <div className="card-actions justify-center mt-3 md:ml-8">
+                        <button className="btn w-full btn-primary text-white">
                           Bayar Aktivasi
                         </button>
                       </div>

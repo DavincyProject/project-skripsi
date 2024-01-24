@@ -7,7 +7,7 @@ const Back = ({ url }: { url: string }) => {
     <>
       <Link
         href={url}
-        className="flex items-center gap-1 hover:text-blue-400 font-bold"
+        className="flex items-center gap-1 hover:text-blue-400 font-bold w-fit"
       >
         <IoMdArrowRoundBack />
         Kembali

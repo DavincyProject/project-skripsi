@@ -1,0 +1,106 @@
+[
+  {
+    "id": 1,
+    "name": "SMP / sederajat"
+  },
+  {
+    "id": 2,
+    "name": "Tidak sekolah"
+  },
+  {
+    "id": 3,
+    "name": "PAUD"
+  },
+  {
+    "id": 4,
+    "name": "TK / sederajat"
+  },
+  {
+    "id": 5,
+    "name": "PNS/TN1/Polri"
+  },
+  {
+    "id": 6,
+    "name": "Putus SD"
+  },
+  {
+    "id": 7,
+    "name": "SD / sederajat"
+  },
+  {
+    "id": 8,
+    "name": "SMP / sederajat"
+  },
+  {
+    "id": 9,
+    "name": "SMA / sederajat"
+  },
+  {
+    "id": 10,
+    "name": "Paket A"
+  },
+  {
+    "id": 11,
+    "name": "Paket B"
+  },
+  {
+    "id": 12,
+    "name": "Paket C"
+  },
+  {
+    "id": 13,
+    "name": "D1"
+  },
+  {
+    "id": 14,
+    "name": "D2"
+  },
+  {
+    "id": 15,
+    "name": "D3"
+  },
+  {
+    "id": 16,
+    "name": "D4"
+  },
+  {
+    "id": 17,
+    "name": "Profesi"
+  },
+  {
+    "id": 18,
+    "name": "S1"
+  },
+  {
+    "id": 19,
+    "name": "SP-1"
+  },
+  {
+    "id": 20,
+    "name": "S2"
+  },
+  {
+    "id": 21,
+    "name": "SP-2"
+  },
+  {
+    "id": 22,
+    "name": "S3"
+  },
+  {
+    "id": 23,
+    "name": "Non formal"
+  },
+  {
+    "id": 24,
+    "name": "Informal"
+  },
+  {
+    "id": 25,
+    "name": "(tidak diisi)"
+  },
+  {
+    "id": 26,
+    "name": "Lainnya"
+  }
+]
