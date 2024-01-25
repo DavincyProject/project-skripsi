@@ -100,9 +100,9 @@ const Mobile = () => {
                 <li className="my-1">
                   <Link
                     className={`link hover:bg-[#0f52ba] hover:text-white no-underline ${
-                      pathname === `/` ? "active-blue" : ""
+                      pathname === `/info/kalender` ? "active-blue" : ""
                     }`}
-                    href="/"
+                    href="/info/kalender"
                   >
                     Kalender Akademik
                   </Link>
@@ -110,9 +110,9 @@ const Mobile = () => {
                 <li className="my-1">
                   <Link
                     className={`link hover:bg-[#0f52ba] hover:text-white no-underline ${
-                      pathname === `/` ? "active-blue" : ""
+                      pathname === `/info/jadwal` ? "active-blue" : ""
                     }`}
-                    href="/"
+                    href="/info/jadwal"
                   >
                     Jadwal Kuliah
                   </Link>

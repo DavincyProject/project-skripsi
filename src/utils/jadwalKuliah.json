@@ -1,0 +1,47 @@
+[
+  {
+    "id": 1,
+    "hours": "07:30 - 09:10",
+    "days": "Selasa",
+    "kodeDosen": "ROR",
+    "kodeMTK": "Pendidikan Kewarganegaraan (106)",
+    "sks": "2",
+    "KelPraktek": "",
+    "rps": "/jadwal/zip.svg",
+    "silabus": "/jadwal/zip.svg",
+    "slide": "/jadwal/zip.svg",
+    "rtm": "/jadwal/zip.svg",
+    "modul": "/jadwal/zip.svg",
+    "kampus": "C3 / Ruang EL4"
+  },
+  {
+    "id": 2,
+    "hours": "07:30 - 09:10",
+    "days": "Jumat",
+    "kodeDosen": "TKY",
+    "kodeMTK": "Bahasa Indonesia (253)",
+    "sks": "2",
+    "KelPraktek": "",
+    "rps": "/jadwal/zip.svg",
+    "silabus": "/jadwal/zip.svg",
+    "slide": "/jadwal/zip.svg",
+    "rtm": "/jadwal/zip.svg",
+    "modul": "/jadwal/zip.svg",
+    "kampus": "C3 / Ruang EL4"
+  },
+  {
+    "id": 3,
+    "hours": "14:10 - 16:40",
+    "days": "Selasa",
+    "kodeDosen": "KPG",
+    "kodeMTK": "Etika Profesi Teknologi Informasi dan Komunikasi (772)",
+    "sks": "3",
+    "KelPraktek": "",
+    "rps": "/jadwal/zip.svg",
+    "silabus": "/jadwal/zip.svg",
+    "slide": "/jadwal/zip.svg",
+    "rtm": "/jadwal/zip.svg",
+    "modul": "/jadwal/zip.svg",
+    "kampus": "C3 / Ruang EL3"
+  }
+]
