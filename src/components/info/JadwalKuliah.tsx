@@ -6,8 +6,8 @@ const JadwalKuliah = () => {
     <div>
       <div className="flex items-center gap-2">
         <Image
-          src={"/surat/doc_icon.svg"}
-          alt="home icon"
+          src={"/jadwal/date.svg"}
+          alt="date icon"
           width={25}
           height={25}
         />
