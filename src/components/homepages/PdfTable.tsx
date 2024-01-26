@@ -46,22 +46,50 @@ const PdfTable = () => {
           </table>
         </div>
         <div className="flex items-center justify-end">
-          <div className="join my-5">
-            <button className="join-item btn bg-[#86B6F6] hover:bg-[#B6BBC4]">
-              «
-            </button>
-            <button className="join-item btn bg-[#B4D4FF] hover:bg-[#B6BBC4]">
-              1
-            </button>
-            <button className="join-item btn bg-[#B4D4FF] hover:bg-[#B6BBC4]">
-              ...
-            </button>
-            <button className="join-item btn bg-[#B4D4FF] hover:bg-[#B6BBC4]">
-              10
-            </button>
-            <button className="join-item btn bg-[#86B6F6] hover:bg-[#B6BBC4]">
-              »
-            </button>
+          <div
+            aria-label="Pagination"
+            className="flex items-center justify-center mt-2 text-gray-600"
+          >
+            <a className="p-2 mr-4 rounded hover:bg-gray-100">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                className="h-6 w-6"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M15 19l-7-7 7-7"
+                />
+              </svg>
+            </a>
+            <a className="px-4 py-2 rounded hover:bg-gray-100"> 1 </a>
+            <a className="px-4 py-2 rounded bg-gray-200 text-gray-900 font-medium hover:bg-gray-100">
+              {" "}
+              2{" "}
+            </a>
+            <a className="px-4 py-2 rounded hover:bg-gray-100"> 3 </a>
+            <a className="px-4 py-2 rounded hover:bg-gray-100"> ... </a>
+            <a className="px-4 py-2 rounded hover:bg-gray-100"> 9 </a>
+            <a className="p-2 ml-4 rounded hover:bg-gray-100">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                className="h-6 w-6"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M9 5l7 7-7 7"
+                />
+              </svg>
+            </a>
           </div>
         </div>
       </section>

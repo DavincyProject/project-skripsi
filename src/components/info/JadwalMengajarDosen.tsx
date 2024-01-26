@@ -40,7 +40,7 @@ const JadwalMengajarDosen = () => {
       </div>
 
       <div className="md:ml-8 mt-2">
-        <div className="overflow-x-auto max-h-[80dvh]">
+        <div className="overflow-x-auto max-h-[80dvh] custom-scrollbar">
           <table className="table">
             {/* head */}
             <thead className="bg-[#F3F4F6] sticky top-0">
@@ -71,7 +71,7 @@ const JadwalMengajarDosen = () => {
           </table>
         </div>
 
-        <nav
+        <div
           aria-label="Pagination"
           className="flex items-center justify-center mt-2 text-gray-600"
         >
@@ -115,7 +115,7 @@ const JadwalMengajarDosen = () => {
               />
             </svg>
           </a>
-        </nav>
+        </div>
       </div>
     </div>
   );

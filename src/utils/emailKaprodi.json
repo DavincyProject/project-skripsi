@@ -1,0 +1,66 @@
+[
+  {
+    "id": 1,
+    "fakultas": "FEB",
+    "program_studi": "Akuntansi",
+    "jenjang": "S1",
+    "nama_kaprodi": "Syamsul Bahri, M.M, M.Kom",
+    "email": "kaprodi.akuntansis1@bsi.ac.id"
+  },
+  {
+    "id": 2,
+    "fakultas": "FKB",
+    "program_studi": "Hubungan Masyarakat",
+    "jenjang": "D-III",
+    "nama_kaprodi": "Ita Suryani, S.Sos, M.I.Kom",
+    "email": "kaprodi.humas@bsi.ac.id"
+  },
+  {
+    "id": 3,
+    "fakultas": "FKB",
+    "program_studi": "Penyiaran",
+    "jenjang": "D-III",
+    "nama_kaprodi": "Azwar Munanjar, S.I.Kom, M.M",
+    "email": "kaprodi.penyiaran@bsi.ac.id"
+  },
+  {
+    "id": 4,
+    "fakultas": "FKB",
+    "program_studi": "Periklanan",
+    "jenjang": "D-III",
+    "nama_kaprodi": "Jusuf Fadilah, M.I.Kom",
+    "email": "kaprodi.periklanan@bsi.ac.id"
+  },
+  {
+    "id": 5,
+    "fakultas": "FKB",
+    "program_studi": "Sastra Inggris",
+    "jenjang": "S1",
+    "nama_kaprodi": "Agus Priadi, M.Pd",
+    "email": "kaprodi.sastraing@bsi.ac.id"
+  },
+  {
+    "id": 6,
+    "fakultas": "FTI",
+    "program_studi": "Ilmu Komputer",
+    "jenjang": "S1",
+    "nama_kaprodi": "Rachmat Adi Purnama, M.Kom",
+    "email": "kaprodi.ik@bsi.ac.id"
+  },
+  {
+    "id": 7,
+    "fakultas": "FTI",
+    "program_studi": "Rekayasa Perangkat Lunak",
+    "jenjang": "S1",
+    "nama_kaprodi": "Ahmad Setiadi, M.Kom",
+    "email": "kaprodi.rpl@bsi.ac.id"
+  },
+  {
+    "id": 8,
+    "fakultas": "FTI",
+    "program_studi": "Sitem Informasi",
+    "jenjang": "S1",
+    "nama_kaprodi": "Sriyadi, M.Kom",
+    "email": "kaprodi.sis1@bsi.ac.id"
+  }
+]
