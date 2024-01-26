@@ -37,7 +37,12 @@ const Navbar = () => {
         <div className="navbar-start w-fit min-w-72">
           <Link href="/" className="flex items-center gap-2">
             <div>
-              <Image alt="logo bsi" src="logo_bsi.svg" width={45} height={45} />
+              <Image
+                alt="logo bsi"
+                src="/logo_bsi.svg"
+                width={45}
+                height={45}
+              />
             </div>
             <div className="text-xs sm:text-sm md:text-md lg:text-base">
               <h1 className="m-0 font-bold">

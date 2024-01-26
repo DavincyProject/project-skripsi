@@ -185,7 +185,9 @@ const Footer = () => {
         <h1 className="text-xs text-white text-center">
           © 2012 - 2024 SISFO Akademik Mahasiswa Universitas Bina Sarana
           Informatika, All Rights reserved. | Design by Billy <br />
-          All icons and logos are the property of their respective owners.
+          <span className="text-sky-400 font-bold">
+            All icons and logos are the property of their respective owners.
+          </span>
         </h1>
       </div>
     </section>

@@ -111,9 +111,9 @@ const Desktop = () => {
                 <li className="my-1">
                   <Link
                     className={`link hover:bg-[#0f52ba] hover:text-white no-underline ${
-                      pathname === `/` ? "active-blue" : ""
+                      pathname === `/info/emil_prodi` ? "active-blue" : ""
                     }`}
-                    href="/"
+                    href="/info/email_prodi"
                   >
                     Email Program Studi
                   </Link>
