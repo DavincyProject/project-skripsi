@@ -10,7 +10,7 @@ import DataWali from "../../components/verifikasi/DataWali";
 const page = () => {
   return (
     <LayoutSurat>
-      <Back url="/" />
+      <Back url="/" text="" />
 
       {/* content start from here */}
       <div>
