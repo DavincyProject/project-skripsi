@@ -2,7 +2,7 @@ import Link from "next/link";
 import React from "react";
 import { IoMdArrowRoundBack } from "react-icons/io";
 
-const Back = ({ url }: { url: string }) => {
+const Back = ({ url, text }: { url: string; text: string }) => {
   return (
     <>
       <Link
@@ -10,7 +10,7 @@ const Back = ({ url }: { url: string }) => {
         className="flex items-center gap-1 hover:text-blue-400 font-bold w-fit"
       >
         <IoMdArrowRoundBack />
-        Kembali
+        {text ? text : "Kembali ke HomePage"}
       </Link>
       <br />
     </>

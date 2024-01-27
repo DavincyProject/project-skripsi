@@ -5,7 +5,7 @@ import LayoutSurat from "@/components/surat/LayoutSurat";
 const page = () => {
   return (
     <LayoutSurat>
-      <Back url="/" />
+      <Back url="/" text="" />
       <JadwalMengajarDosen />
     </LayoutSurat>
   );

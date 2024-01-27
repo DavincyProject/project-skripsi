@@ -6,7 +6,7 @@ import React from "react";
 const page = () => {
   return (
     <LayoutSurat>
-      <Back url="/" />
+      <Back url="/" text="" />
       <EmailProdi />
     </LayoutSurat>
   );

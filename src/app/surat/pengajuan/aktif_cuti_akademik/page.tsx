@@ -8,7 +8,7 @@ import { IoMdArrowRoundBack } from "react-icons/io";
 const page = () => {
   return (
     <LayoutSurat>
-      <Back url="/surat" />
+      <Back url="/surat" text="Kembali Ke Halaman Sebelumnya" />
       aktif cuti akademik
     </LayoutSurat>
   );

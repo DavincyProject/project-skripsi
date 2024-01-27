@@ -6,10 +6,11 @@ type DetailPagesProps = { params: { slug: any } };
 
 const page = (props: DetailPagesProps) => {
   const { params } = props;
+  console.log(params);
 
   return (
     <LayoutSurat>
-      <Back url="/info/jadwal_dosen" />
+      <Back url="/info/jadwal_dosen" text="Kembali Ke Halaman Sebelumnya" />
       <DetailJadwalDosen />
     </LayoutSurat>
   );

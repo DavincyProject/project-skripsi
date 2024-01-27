@@ -42,6 +42,24 @@
   );
 }
 
+.custom-hero-bg {
+  background-image: radial-gradient(
+    circle,
+    #bdd5eb,
+    #cadbef,
+    #d6e1f3,
+    #e2e7f7,
+    #eceefa,
+    #ebecf7,
+    #e9eaf5,
+    #e8e8f2,
+    #dcdce9,
+    #d1d0e0,
+    #c6c4d6,
+    #bbb8cd
+  );
+}
+
 .bg-darkblue {
   background-color: #6148ff;
   color: white;
@@ -49,5 +67,20 @@
 
 .btn-blue {
   background-color: #6148ff;
+  color: white;
+}
+
+.btn-danger {
+  background-color: #ed5e68;
+  color: white;
+}
+
+.btn-danger:hover {
+  background-color: #e64550;
+  color: white;
+}
+
+.btn-gray {
+  background-color: #8388a4;
   color: white;
 }

@@ -6,7 +6,10 @@ import React from "react";
 const page = () => {
   return (
     <LayoutSurat>
-      <Back url="/surat/pengajuan/surat_riset_tugas" />
+      <Back
+        url="/surat/pengajuan/surat_riset_tugas"
+        text="Kembali Ke Halaman Sebelumnya"
+      />
       <PengantarRisetTugasKuliah />
     </LayoutSurat>
   );

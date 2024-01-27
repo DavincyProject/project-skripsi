@@ -55,7 +55,7 @@ const Mobile = () => {
                   <li key={n.id} className="my-1">
                     <Link
                       className={`link hover:bg-[#0f52ba] hover:text-white no-underline ${
-                        pathname === `${n.name}` ? "active-blue" : ""
+                        pathname === `${n.route}` ? "active-blue" : ""
                       }`}
                       href={n.route}
                     >
@@ -73,9 +73,11 @@ const Mobile = () => {
                 <li className="my-1">
                   <Link
                     className={`link hover:bg-[#0f52ba] hover:text-white no-underline ${
-                      pathname === `/` ? "active-blue" : ""
+                      pathname === `/mahasiswa/data_pribadi`
+                        ? "active-blue"
+                        : ""
                     }`}
-                    href="/"
+                    href="/mahasiswa/data_pribadi"
                   >
                     Data Pribadi Mahasiswa
                   </Link>
@@ -83,9 +85,9 @@ const Mobile = () => {
                 <li className="my-1">
                   <Link
                     className={`link hover:bg-[#0f52ba] hover:text-white no-underline ${
-                      pathname === `/` ? "active-blue" : ""
+                      pathname === `/mahasiswa/krs` ? "active-blue" : ""
                     }`}
-                    href="/"
+                    href="/mahasiswa/krs"
                   >
                     Kartu Rencana Studi
                   </Link>

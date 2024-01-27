@@ -1,6 +1,9 @@
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
+import { FaPlus } from "react-icons/fa";
+import { BsFillPrinterFill } from "react-icons/bs";
+import { MdDeleteForever } from "react-icons/md";
 
 const ListPengajuan = () => {
   const list = [
@@ -106,12 +109,16 @@ const ListPengajuan = () => {
                       </div>
                     </td>
                     <td>
-                      <div className="flex gap-2">
+                      <div className="flex gap-2 flex-wrap">
                         <button className="btn btn-primary text-white">
-                          Cetak
+                          Cetak{" "}
+                          <span>
+                            <BsFillPrinterFill size={20} />
+                          </span>
                         </button>
-                        <button className="btn btn-error text-white">
-                          Hapus
+                        <button className="btn btn-danger">
+                          <span>Hapus</span>
+                          <MdDeleteForever size={20} />
                         </button>
                       </div>
                     </td>
@@ -128,7 +135,8 @@ const ListPengajuan = () => {
               }
             >
               <button className="mt-2 btn btn-primary text-white">
-                Buat Pengajuan Baru
+                <FaPlus size={20} />
+                <span>Buat Pengajuan Baru</span>
               </button>
             </Link>
           </div>
