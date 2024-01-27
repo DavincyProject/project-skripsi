@@ -5,7 +5,7 @@ import React from "react";
 const page = () => {
   return (
     <div className="min-h-[90dvh] flex flex-col px-10 py-3 ">
-      <Back url="/login" />
+      <Back url="/login" text="" />
 
       <section className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
         <div className="col-span-1">

@@ -1,6 +1,5 @@
 import Back from "@/components/surat/Back";
 import Image from "next/image";
-import Link from "next/link";
 import React from "react";
 
 const page = () => {
@@ -17,7 +16,7 @@ const page = () => {
         </div>
 
         <div className="md:max-w-[50%]">
-          <Back url="/login" />
+          <Back url="/login" text="" />
           <div className="card shadow-xl border bg-white">
             <div className="card-body items-center text-center">
               <Image alt="logo bsi" src="logo_bsi.svg" width={50} height={50} />
