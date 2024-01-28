@@ -1,0 +1,56 @@
+[
+  {
+    "id": 1,
+    "name": "Program Studi",
+    "description": "Teknologi Informasi",
+    "icon": "/profile/prodi.svg"
+  },
+  {
+    "id": 2,
+    "name": "Tahun Masuk",
+    "description": "2020",
+    "icon": "/profile/info.svg"
+  },
+  {
+    "id": 3,
+    "name": "Pilihan Waktu",
+    "description": "Pagi / Siang",
+    "icon": "/profile/waktu.svg"
+  },
+  {
+    "id": 4,
+    "name": "Lokasi Cabang",
+    "description": "26",
+    "icon": "/profile/lokasi_cabang.svg"
+  },
+  {
+    "id": 5,
+    "name": "Kelas",
+    "description": "8A",
+    "icon": "/profile/kelas.svg"
+  },
+  {
+    "id": 6,
+    "name": "Lokal",
+    "description": "26",
+    "icon": "/profile/lokasi_cabang.svg"
+  },
+  {
+    "id": 7,
+    "name": "Semester Aktif",
+    "description": "8",
+    "icon": "/profile/semester_aktif.svg"
+  },
+  {
+    "id": 8,
+    "name": "Kondisi Aktif",
+    "description": "Aktif",
+    "icon": "/profile/semester_aktif.svg"
+  },
+  {
+    "id": 9,
+    "name": "Kondisi Biaya Kuliah",
+    "description": "Lunas Biaya Kuliah",
+    "icon": "/profile/status_pembayaran.svg"
+  }
+]

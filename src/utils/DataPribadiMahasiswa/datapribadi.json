@@ -1,0 +1,80 @@
+[
+  {
+    "id": 1,
+    "name": "NIM",
+    "description": "172XXXXX",
+    "icon": "/profile/nim.svg"
+  },
+  {
+    "id": 2,
+    "name": "Tempat Lahir",
+    "description": "Jakarta",
+    "icon": "/profile/lokasi_cabang.svg"
+  },
+  {
+    "id": 3,
+    "name": "Tanggal Lahir",
+    "description": "YYYY-MM-DD",
+    "icon": "/profile/tanggal_lahir.svg"
+  },
+  {
+    "id": 4,
+    "name": "Alamat",
+    "description": "Jl. Kenangan",
+    "icon": "/profile/alamat.svg"
+  },
+  {
+    "id": 5,
+    "name": "RT / RW",
+    "description": "000 / 000",
+    "icon": "/profile/alamat.svg"
+  },
+  {
+    "id": 6,
+    "name": "Kelurahan",
+    "description": "Kenangan",
+    "icon": "/profile/alamat.svg"
+  },
+  {
+    "id": 7,
+    "name": "Kecamatan",
+    "description": "Kec. Kenanga",
+    "icon": "/profile/alamat.svg"
+  },
+  {
+    "id": 8,
+    "name": "Kota",
+    "description": "Kota Jakarta Barat",
+    "icon": "/profile/city.svg"
+  },
+  {
+    "id": 9,
+    "name": "Kode Pos",
+    "description": "11111",
+    "icon": "/profile/kode_pos.svg"
+  },
+  {
+    "id": 10,
+    "name": "Telepon",
+    "description": "081234567890",
+    "icon": "/profile/phone.svg"
+  },
+  {
+    "id": 11,
+    "name": "E-Mail",
+    "description": "kenanganterindah@mail.com",
+    "icon": "/profile/email.svg"
+  },
+  {
+    "id": 12,
+    "name": "Jenis Kelamin",
+    "description": "Laki - Laki",
+    "icon": "/profile/jenis_kelamin.svg"
+  },
+  {
+    "id": 13,
+    "name": "Agama",
+    "description": "-",
+    "icon": "/profile/agama.svg"
+  }
+]

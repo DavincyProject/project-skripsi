@@ -8,8 +8,9 @@ const page = () => {
     <LayoutSurat>
       <iframe
         src={`${pdfUrl}#toolbar=1`}
-        allow="fullscreen"
-        className="w-full min-h-dvh"
+        allowFullScreen
+        frameBorder="0"
+        className="w-full min-h-[70dvh] md:min-h-dvh rounded-md"
       ></iframe>
     </LayoutSurat>
   );
