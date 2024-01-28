@@ -4,10 +4,15 @@ import { SiHtmlacademy } from "react-icons/si";
 import datapribadi from "../../../utils/DataPribadiMahasiswa/datapribadi.json";
 import dataakademik from "../../../utils/DataPribadiMahasiswa/dataakademik.json";
 import Image from "next/image";
+import Back from "@/components/surat/Back";
 
 export default function page() {
   return (
     <div className="min-h-dvh custom-hero-bg">
+      <div className="pt-5 px-4">
+        <Back url="/" text="" />
+      </div>
+
       <Hero />
 
       <div className="px-2 py-2 grid grid-cols-1 md:grid-cols-2 grid-rows-1 gap-3">
@@ -33,7 +38,7 @@ export default function page() {
                         <h1>{pribadi.name}</h1>
                       </div>
 
-                      <h2>{pribadi.description}</h2>
+                      <h2 className="font-semibold">{pribadi.description}</h2>
                     </div>
                     <div className="divider mt-1"></div>
                   </div>
@@ -63,7 +68,7 @@ export default function page() {
                         />
                         <h1>{akademik.name}</h1>
                       </div>
-                      <h2>{akademik.description}</h2>
+                      <h2 className="font-semibold">{akademik.description}</h2>
                     </div>
                     <div className="divider mt-1"></div>
                   </div>

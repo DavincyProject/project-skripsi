@@ -4,7 +4,7 @@ import React from "react";
 
 const Hero = () => {
   return (
-    <div className="hero py-4 ">
+    <div className="hero pb-4">
       <div className="hero-content text-center">
         <div className="max-w-lg">
           <div className="flex items-end justify-center">
