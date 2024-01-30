@@ -1,9 +1,11 @@
+"use client";
+
 import Image from "next/image";
 import React from "react";
 
 const Krs = () => {
   return (
-    <div>
+    <div className="print-section">
       <div className="flex items-center gap-2">
         <Image
           src={"/jadwal/date.svg"}
