@@ -181,6 +181,9 @@ const Krs = () => {
           Cetak KRS
         </button>
       </div>
+      <small className="flex justify-end mt-2 text-red-500">
+        * Gunakan Komputer / Laptop untuk cetak KRS
+      </small>
     </div>
   );
 };
