@@ -15,11 +15,11 @@ const DataPribadi = () => {
       </div>
       <label className="form-control w-full ">
         <div className="label">
-          <span className="label-text">Alamat Lengkap</span>
+          <span className="label-text">Nama Jalan</span>
         </div>
         <input
           type="text"
-          placeholder="Masukkan Alamat Lengkap Anda"
+          placeholder="Contoh : jl.kenangan"
           className="input input-bordered w-full "
         />
       </label>
