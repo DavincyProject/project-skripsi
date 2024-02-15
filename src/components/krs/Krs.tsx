@@ -17,7 +17,7 @@ const Krs = () => {
         {/* this is header for print pages */}
         <div id="header-print" className="mb-5">
           <Image
-            className="table-header-group"
+            className="table-header-group "
             src="/print/kop_atas.jpg"
             alt="top header"
             width={1000}
@@ -184,7 +184,7 @@ const Krs = () => {
         </button>
       </div>
       <small className="flex justify-end mt-2 text-red-500">
-        * Gunakan Komputer / Laptop untuk cetak KRS
+        * Disarankan menggunakan Komputer / Laptop untuk hasil yang lebih baik.
       </small>
     </div>
   );

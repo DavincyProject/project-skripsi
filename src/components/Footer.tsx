@@ -2,7 +2,6 @@
 
 import Image from "next/image";
 import Link from "next/link";
-import { FcGoogle } from "react-icons/fc";
 
 const Footer = () => {
   const aplikasi = [
@@ -31,13 +30,13 @@ const Footer = () => {
       id: 1,
       name: "www.bsi.ac.id",
       link: "http://www.bsi.ac.id",
-      logo: "/footer/web.png",
+      logo: "/logo_bsi.svg",
     },
     {
       id: 2,
       name: "News BSI",
       link: "http://news.bsi.ac.id",
-      logo: "/footer/web.png",
+      logo: "/footer/bsi_news.svg",
     },
     {
       id: 3,
@@ -47,9 +46,9 @@ const Footer = () => {
     },
     {
       id: 4,
-      name: "MBKM",
+      name: "MBKM UBSI",
       link: "http://mbkm.bsi.ac.id",
-      logo: "/footer/web.png",
+      logo: "/footer/mbkm.svg",
     },
     {
       id: 5,
@@ -108,8 +107,8 @@ const Footer = () => {
                 <Image
                   src={apps.logo}
                   alt={apps.name}
-                  width={20}
-                  height={20}
+                  width={25}
+                  height={25}
                 ></Image>
                 <span>{apps.name}</span>
               </Link>
@@ -127,8 +126,8 @@ const Footer = () => {
                 <Image
                   src={sosmed.logo}
                   alt={sosmed.name}
-                  width={20}
-                  height={20}
+                  width={25}
+                  height={25}
                 ></Image>
                 <span>{sosmed.name}</span>
               </Link>
@@ -141,13 +140,13 @@ const Footer = () => {
                 key={site.id}
                 href={`${site.link}`}
                 target="_blank"
-                className="flex items-center gap-2 my-2 hover:text-blue-300"
+                className="flex items-center gap-2 my-2 hover:text-blue-300 hover:underline"
               >
                 <Image
                   src={site.logo}
                   alt={site.name}
-                  width={20}
-                  height={20}
+                  width={25}
+                  height={25}
                 ></Image>
                 <span>{site.name}</span>
               </Link>
