@@ -1,0 +1,38 @@
+[
+  {
+    "id": "1",
+    "kode": "712",
+    "matkul": "ENTREPRENEURSHIP",
+    "sks": "3",
+    "nilai": "A",
+    "mutu": "12",
+    "deskripsi": ""
+  },
+  {
+    "id": "2",
+    "kode": "101",
+    "matkul": "PENDIDIKAN PANCASILA",
+    "sks": "2",
+    "nilai": "A",
+    "mutu": "8",
+    "deskripsi": ""
+  },
+  {
+    "id": "3",
+    "kode": "104",
+    "matkul": "BAHASA INGGRIS I",
+    "sks": "2",
+    "nilai": "A",
+    "mutu": "8",
+    "deskripsi": ""
+  },
+  {
+    "id": "4",
+    "kode": "0287",
+    "matkul": "MANAJEMEN PROYEK TEKNOLOGI INFORMASI",
+    "sks": "3",
+    "nilai": "A",
+    "mutu": "12",
+    "deskripsi": ""
+  }
+]

@@ -72,6 +72,11 @@
   color: white;
 }
 
+.btn-blue:hover {
+  background-color: #4932db;
+  color: white;
+}
+
 .btn-danger {
   background-color: #ed5e68;
   color: white;

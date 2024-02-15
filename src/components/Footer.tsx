@@ -102,7 +102,7 @@ const Footer = () => {
                 key={apps.id}
                 href={`${apps.link}`}
                 target="_blank"
-                className="flex items-center gap-2 my-2 hover:text-blue-300"
+                className="flex items-center gap-2 my-2 hover:text-blue-300 hover:underline"
               >
                 <Image
                   src={apps.logo}
@@ -121,7 +121,7 @@ const Footer = () => {
                 key={sosmed.id}
                 href={`${sosmed.link}`}
                 target="_blank"
-                className="flex items-center gap-2 my-2 hover:text-blue-300"
+                className="flex items-center gap-2 my-2 hover:text-blue-300 hover:underline"
               >
                 <Image
                   src={sosmed.logo}

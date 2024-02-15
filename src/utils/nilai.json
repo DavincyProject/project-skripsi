@@ -22,12 +22,12 @@
   {
     "id": 5,
     "name": "Kartu Hasil Studi",
-    "route": "/"
+    "route": "/mahasiswa/khs"
   },
   {
     "id": 6,
     "name": "KHS Semester",
-    "route": "/"
+    "route": "/mahasiswa/khs_semester"
   },
   {
     "id": 7,

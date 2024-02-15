@@ -31,12 +31,12 @@ const Desktop = () => {
           <li>
             <details>
               <summary>Nilai Mahasiswa</summary>
-              <ul className="p-2 bg-base-100 rounded-t-none">
+              <ul>
                 {nilai.map((n: any) => (
                   <li key={n.id} className="my-1">
                     <Link
                       className={`link hover:bg-[#0f52ba] hover:text-white no-underline ${
-                        pathname === `${n.name}` ? "active-blue" : ""
+                        pathname === `${n.route}` ? "active-blue" : ""
                       }`}
                       href={n.route}
                     >
