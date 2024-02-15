@@ -13,37 +13,19 @@ const DataAkademik = () => {
         />
         <span className="font-bold">Data Akademik</span>
       </div>
-      <div className="grid grid-cols-1 md:grid-cols-2 grid-rows-1 gap-4">
-        <div>
-          <label className="form-control w-full ">
-            <div className="label">
-              <span className="label-text">NIM</span>
-            </div>
-            <input
-              type="text"
-              placeholder="NIM Akan Ditampilkan Disini"
-              className="input input-bordered w-full "
-              value={"172xxxxx"}
-            />
-          </label>
-        </div>
-        <div>
-          <label className="form-control w-full ">
-            <div className="label">
-              <span className="label-text">NIK</span>
-            </div>
-            <input
-              type="text"
-              placeholder="NIK Akan Ditampilkan Disini"
-              className="input input-bordered w-full "
-            />
-            <div className="label">
-              <span className="label-text-alt text-red-500">
-                ( Nomor Induk Kependudukan )
-              </span>
-            </div>
-          </label>
-        </div>
+
+      <div>
+        <label className="form-control w-full ">
+          <div className="label">
+            <span className="label-text">NIM</span>
+          </div>
+          <input
+            type="text"
+            placeholder="NIM Akan Ditampilkan Disini"
+            className="input input-bordered w-full "
+            value={"172xxxxx"}
+          />
+        </label>
       </div>
       <div className="grid grid-cols-1 md:grid-cols-2 grid-rows-1 gap-4">
         <div>
@@ -81,18 +63,6 @@ const DataAkademik = () => {
         <div>
           <label className="form-control w-full ">
             <div className="label">
-              <span className="label-text">Kode Pos</span>
-            </div>
-            <input
-              type="text"
-              placeholder="Masukkan Kode Pos Anda"
-              className="input input-bordered w-full "
-            />
-          </label>
-        </div>
-        <div>
-          <label className="form-control w-full ">
-            <div className="label">
               <span className="label-text">
                 <div
                   className="tooltip"
@@ -110,6 +80,23 @@ const DataAkademik = () => {
             <div className="label">
               <span className="label-text-alt text-red-500">
                 ( Kartu Perlindungan Sosial )
+              </span>
+            </div>
+          </label>
+        </div>
+        <div>
+          <label className="form-control w-full ">
+            <div className="label">
+              <span className="label-text">NIK</span>
+            </div>
+            <input
+              type="text"
+              placeholder="NIK Akan Ditampilkan Disini"
+              className="input input-bordered w-full "
+            />
+            <div className="label">
+              <span className="label-text-alt text-red-500">
+                ( Nomor Induk Kependudukan )
               </span>
             </div>
           </label>

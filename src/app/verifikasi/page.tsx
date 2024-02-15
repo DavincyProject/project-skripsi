@@ -17,6 +17,9 @@ const page = () => {
         <h1 className="text-center font-bold text-lg mb-4">
           Verifikasi Data Pribadi
         </h1>
+        <small className="text-red-500 mb-2">
+          * Hover atau klik nama textnya untuk detail lebih lanjut
+        </small>
         <div className="flex flex-col gap-4">
           <DataPribadi />
 
