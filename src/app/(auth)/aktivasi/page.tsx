@@ -36,9 +36,8 @@ const page = () => {
                         <span className="label-text">Tanggal Lahir</span>
                       </div>
                       <input
-                        type="text"
-                        placeholder="Gunakan Format YYYY-MM-DD"
-                        className="input input-bordered"
+                        type="date"
+                        className="input input-bordered w-full "
                       />
                     </label>
                   </div>
@@ -101,12 +100,11 @@ const page = () => {
                         </label>
                         <label className="form-control md:flex-1">
                           <div className="label">
-                            <span className="label-text">NIM Lama</span>
+                            <span className="label-text">Tanggal Lahir</span>
                           </div>
                           <input
-                            type="text"
-                            placeholder="Masukkan NIM Lama Anda"
-                            className="input input-bordered"
+                            type="date"
+                            className="input input-bordered w-full "
                           />
                         </label>
                       </div>
