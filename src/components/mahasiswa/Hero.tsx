@@ -10,7 +10,7 @@ const Hero = () => {
           <div className="flex items-end justify-center">
             <Image
               src={
-                "https://daisyui.com/images/stock/photo-1534528741775-53994a69daeb.jpg"
+                "/picture_profile.png"
               }
               alt="profile image"
               loading="lazy"
