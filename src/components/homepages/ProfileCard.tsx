@@ -12,7 +12,7 @@ const ProfileCard = () => {
           <div className="flex items-end gap-3 mb-2">
             <Image
               src={
-                "/picture_profile.png"
+                "/profile/picture_profile.png"
               }
               alt="profile image"
               loading="lazy"
